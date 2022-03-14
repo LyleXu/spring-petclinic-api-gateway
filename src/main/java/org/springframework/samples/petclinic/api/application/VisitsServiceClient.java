@@ -33,7 +33,7 @@ import static java.util.stream.Collectors.joining;
 public class VisitsServiceClient {
 
     // Could be changed for testing purpose
-    private String hostname = "http://visits-service/";
+    private String hostname = "http://visits-service-00001-private/";
 
     private final WebClient.Builder webClientBuilder;
 
